@@ -1,0 +1,25 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Chat extends Model
+{
+    protected $fillable = [
+        'user_id',
+        'sender',
+        'receiver_id',
+        'order_id',
+        'message',
+        'type',
+        'is_read',
+        'is_flagged'
+    ];
+
+    // relasi ke user
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+}

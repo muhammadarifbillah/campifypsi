@@ -94,8 +94,8 @@
         {{-- FILTER --}}
         <div class="mb-4">
             <button class="btn btn-success btn-sm me-2">SEMUA</button>
-            <button class="btn btn-outline-secondary btn-sm me-2">TERSEDIA</button>
-            <button class="btn btn-outline-secondary btn-sm">HABIS</button>
+            <button class="btn btn-outline-secondary btn-sm me-2">Sewa</button>
+            <button class="btn btn-outline-secondary btn-sm">Jual</button>
         </div>
 
         {{-- ALERT --}}
